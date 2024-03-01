@@ -3,18 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KolkoIKrzyzykJKLJ.MainPage">
 
-    <StackLayout>
-        <Button x:Name="btn_R0_C0"/>
-        <Button x:Name="btn_R0_C1"/>
-        <Button x:Name="btn_R0_C2"/>
+    <StackLayout BackgroundColor="DarkCyan">
+        <Frame BackgroundColor="Aqua">
+            <Grid BackgroundColor="Aqua" RowSpacing="4" ColumnSpacing="4" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="150"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-        <Button x:Name="btn_R1_C0"/>
-        <Button x:Name="btn_R1_C1"/>
-        <Button x:Name="btn_R1_C2"/>
+                <Button x:Name="btn_R0_C0" FontSize="100" Text="" Grid.Column="0" Grid.Row="0" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R0_C1" FontSize="100" Text="" Grid.Column="1" Grid.Row="0" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R0_C2" FontSize="100" Text="" Grid.Column="2" Grid.Row="0" BackgroundColor="DarkCyan"/>
 
-        <Button x:Name="btn_R2_C0"/>
-        <Button x:Name="btn_R2_C1"/>
-        <Button x:Name="btn_R2_C2"/>
+                <Button x:Name="btn_R1_C0" FontSize="100" Text="" Grid.Column="0" Grid.Row="1" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R1_C1" FontSize="100" Text="" Grid.Column="1" Grid.Row="1" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R1_C2" FontSize="100" Text="" Grid.Column="2" Grid.Row="1" BackgroundColor="DarkCyan"/>
+
+                <Button x:Name="btn_R2_C0" FontSize="100" Text="" Grid.Column="0" Grid.Row="2" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R2_C1" FontSize="100" Text="" Grid.Column="1" Grid.Row="2" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R2_C2" FontSize="100" Text="" Grid.Column="2" Grid.Row="2" BackgroundColor="DarkCyan"/>
+            </Grid>
+        </Frame>
+        <Frame BackgroundColor="DarkCyan">
+            <Label x:Name="lbl_Player" Text="Tura gracza: ×" BackgroundColor="DarkCyan" FontSize="30" HorizontalOptions="CenterAndExpand"/>
+        </Frame>
+        <Label x:Name="lbl_Score" Text=" × 0:0 ৹ " BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" FontSize="20"/>
+        <Button x:Name="lbl_Reset_Round" Text="Resetuj runde" BackgroundColor="DarkCyan" FontAttributes="Bold"  BorderColor="AliceBlue" BorderWidth="4"  CornerRadius="10" HorizontalOptions="CenterAndExpand"/>
+        <Button x:Name="lbl_Reset_Game" Text="Resetuj gre" BackgroundColor="DarkCyan" FontAttributes="Bold"  BorderColor="AliceBlue" BorderWidth="4" CornerRadius="10" HorizontalOptions="CenterAndExpand"/>
     </StackLayout>
-
+    <!---৹ ×-->
 </ContentPage>
