@@ -25,6 +25,7 @@ namespace KolkoIKrzyzykJKLJ
             if (!hasWinner && turns < 9 && String.IsNullOrWhiteSpace(field.Text)) 
             {          
                 field.Text = currentPlayer;
+                turns++;
 
                 if (currentPlayer == "×")
                 {
@@ -200,6 +201,7 @@ namespace KolkoIKrzyzykJKLJ
             turns = 0;
             currentPlayer = "×";
             hasWinner = false;
+            lbl_Player.Text = "Teraz gra: ×";
         }
     }
 }
