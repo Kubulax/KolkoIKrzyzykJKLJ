@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolkoIKrzyzykJKLJ.Android", "KolkoIKrzyzykJKLJ.Android\KolkoIKrzyzykJKLJ.Android.csproj", "{1424A5B4-0780-4011-B4C1-B22A197234E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolkoIKrzyzykJKLJ", "KolkoIKrzyzykJKLJ\KolkoIKrzyzykJKLJ.csproj", "{24B7A698-227F-40C9-BF0B-51AD8817C909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1424A5B4-0780-4011-B4C1-B22A197234E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1424A5B4-0780-4011-B4C1-B22A197234E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1424A5B4-0780-4011-B4C1-B22A197234E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1424A5B4-0780-4011-B4C1-B22A197234E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1424A5B4-0780-4011-B4C1-B22A197234E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1424A5B4-0780-4011-B4C1-B22A197234E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{24B7A698-227F-40C9-BF0B-51AD8817C909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B7A698-227F-40C9-BF0B-51AD8817C909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B7A698-227F-40C9-BF0B-51AD8817C909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B7A698-227F-40C9-BF0B-51AD8817C909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3399816-4778-4B76-ABE0-5F8BCC7CBB94}
+	EndGlobalSection
+EndGlobal
