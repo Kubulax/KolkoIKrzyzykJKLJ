@@ -31,7 +31,7 @@
             </Grid>
         </Frame>
         <Frame BackgroundColor="DarkCyan">
-            <Label x:Name="lbl_Player" Text="Tura gracza: ×" BackgroundColor="DarkCyan" FontSize="30" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="lbl_Player" Text="Teraz gra: ×" BackgroundColor="DarkCyan" FontSize="30" HorizontalOptions="CenterAndExpand"/>
         </Frame>
         <Label x:Name="lbl_Score" Text=" × 0:0 ৹ " BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" FontSize="20"/>
         <Button x:Name="lbl_Reset_Round" Clicked="ResetRound" Text="Resetuj runde" BackgroundColor="DarkCyan" FontAttributes="Bold"  BorderColor="AliceBlue" BorderWidth="4"  CornerRadius="10" HorizontalOptions="CenterAndExpand"/>
