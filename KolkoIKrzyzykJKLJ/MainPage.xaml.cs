@@ -201,6 +201,7 @@ namespace KolkoIKrzyzykJKLJ
             turns = 0;
             currentPlayer = "×";
             hasWinner = false;
+            lbl_Player.Text = "Teraz gra: ×";
         }
     }
 }
