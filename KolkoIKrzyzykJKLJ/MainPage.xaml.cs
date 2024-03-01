@@ -20,10 +20,10 @@ namespace KolkoIKrzyzykJKLJ
 
         private void DrawSymbol(object sender, EventArgs e)
         {
-            if (!hasWinner && turns < 9) 
-            {
-                Button field = sender as Button;
+            Button field = sender as Button;
 
+            if (!hasWinner && turns < 9 && String.IsNullOrWhiteSpace(field.Text)) 
+            {          
                 field.Text = currentPlayer;
 
                 if (currentPlayer == "×")
@@ -163,6 +163,43 @@ namespace KolkoIKrzyzykJKLJ
                 return;
             }
 
+        }
+
+        private void ResetRound(object sender, EventArgs e)
+        {
+            ResetRoundStatus();
+        }
+
+        private void ResetGame(object sender, EventArgs e)
+        {
+            ResetRoundStatus();
+        }
+
+        private void ResetRoundStatus()
+        {
+            btn_R0_C0.Text = "";
+            btn_R0_C1.Text = "";
+            btn_R0_C2.Text = "";
+            btn_R1_C0.Text = "";
+            btn_R1_C1.Text = "";
+            btn_R1_C2.Text = "";
+            btn_R2_C0.Text = "";
+            btn_R2_C1.Text = "";
+            btn_R2_C2.Text = "";
+
+            btn_R0_C0.TextColor = Color.Black;
+            btn_R0_C1.TextColor = Color.Black;
+            btn_R0_C2.TextColor = Color.Black;
+            btn_R1_C0.TextColor = Color.Black;
+            btn_R1_C1.TextColor = Color.Black;
+            btn_R1_C2.TextColor = Color.Black;
+            btn_R2_C0.TextColor = Color.Black;
+            btn_R2_C1.TextColor = Color.Black;
+            btn_R2_C2.TextColor = Color.Black;
+
+            turns = 0;
+            currentPlayer = "×";
+            hasWinner = false;
         }
     }
 }

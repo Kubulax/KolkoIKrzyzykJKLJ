@@ -34,8 +34,8 @@
             <Label x:Name="lbl_Player" Text="Tura gracza: ×" BackgroundColor="DarkCyan" FontSize="30" HorizontalOptions="CenterAndExpand"/>
         </Frame>
         <Label x:Name="lbl_Score" Text=" × 0:0 ৹ " BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" FontSize="20"/>
-        <Button x:Name="lbl_Reset_Round" Text="Resetuj runde" BackgroundColor="DarkCyan" FontAttributes="Bold"  BorderColor="AliceBlue" BorderWidth="4"  CornerRadius="10" HorizontalOptions="CenterAndExpand"/>
-        <Button x:Name="lbl_Reset_Game" Text="Resetuj gre" BackgroundColor="DarkCyan" FontAttributes="Bold"  BorderColor="AliceBlue" BorderWidth="4" CornerRadius="10" HorizontalOptions="CenterAndExpand"/>
+        <Button x:Name="lbl_Reset_Round" Clicked="ResetRound" Text="Resetuj runde" BackgroundColor="DarkCyan" FontAttributes="Bold"  BorderColor="AliceBlue" BorderWidth="4"  CornerRadius="10" HorizontalOptions="CenterAndExpand"/>
+        <Button x:Name="lbl_Reset_Game" Clicked="ResetGame" Text="Resetuj gre" BackgroundColor="DarkCyan" FontAttributes="Bold"  BorderColor="AliceBlue" BorderWidth="4" CornerRadius="10" HorizontalOptions="CenterAndExpand"/>
     </StackLayout>
     <!---৹ ×-->
 </ContentPage>
