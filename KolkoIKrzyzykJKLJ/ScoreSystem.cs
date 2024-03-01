@@ -20,7 +20,7 @@ namespace KolkoIKrzyzykJKLJ
             }
         }
 
-        public static void ResetScore(string player) 
+        public static void ResetScore() 
         {
             score = new int[2];
         }

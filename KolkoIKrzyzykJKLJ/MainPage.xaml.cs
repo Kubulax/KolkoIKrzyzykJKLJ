@@ -152,7 +152,9 @@ namespace KolkoIKrzyzykJKLJ
 
             if ( hasWinner )
             {
+                ScoreSystem.AddPoint(currentPlayer);
                 DisplayAlert("Koniec gry", "Wygrał " + currentPlayer, "OK");
+                lbl_Score.Text = ScoreSystem.DrawScoreDisplay();
                 lbl_Player.Text = "Wygrywa: " + currentPlayer;
                 return;
             }
@@ -174,6 +176,8 @@ namespace KolkoIKrzyzykJKLJ
         private void ResetGame(object sender, EventArgs e)
         {
             ResetRoundStatus();
+            ScoreSystem.ResetScore();
+            lbl_Score.Text = ScoreSystem.DrawScoreDisplay();
         }
 
         private void ResetRoundStatus()
