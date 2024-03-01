@@ -28,11 +28,11 @@ namespace KolkoIKrzyzykJKLJ
 
                 if (currentPlayer == "×")
                 {
-                    currentPlayer = "Teraz gra: ○";
+                    lbl_Player.Text = "Teraz gra: ○";
                 }
                 else if (currentPlayer == "○")
                 {
-                    currentPlayer = "Teraz gra: ×";
+                    lbl_Player.Text = "Teraz gra: ×";
                 }
 
                 CheckForWinner();

@@ -17,17 +17,17 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button x:Name="btn_R0_C0" FontSize="100" Text="" Grid.Column="0" Grid.Row="0" BackgroundColor="DarkCyan"/>
-                <Button x:Name="btn_R0_C1" FontSize="100" Text="" Grid.Column="1" Grid.Row="0" BackgroundColor="DarkCyan"/>
-                <Button x:Name="btn_R0_C2" FontSize="100" Text="" Grid.Column="2" Grid.Row="0" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R0_C0" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="0" Grid.Row="0" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R0_C1" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="1" Grid.Row="0" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R0_C2" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="2" Grid.Row="0" BackgroundColor="DarkCyan"/>
 
-                <Button x:Name="btn_R1_C0" FontSize="100" Text="" Grid.Column="0" Grid.Row="1" BackgroundColor="DarkCyan"/>
-                <Button x:Name="btn_R1_C1" FontSize="100" Text="" Grid.Column="1" Grid.Row="1" BackgroundColor="DarkCyan"/>
-                <Button x:Name="btn_R1_C2" FontSize="100" Text="" Grid.Column="2" Grid.Row="1" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R1_C0" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="0" Grid.Row="1" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R1_C1" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="1" Grid.Row="1" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R1_C2" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="2" Grid.Row="1" BackgroundColor="DarkCyan"/>
 
-                <Button x:Name="btn_R2_C0" FontSize="100" Text="" Grid.Column="0" Grid.Row="2" BackgroundColor="DarkCyan"/>
-                <Button x:Name="btn_R2_C1" FontSize="100" Text="" Grid.Column="1" Grid.Row="2" BackgroundColor="DarkCyan"/>
-                <Button x:Name="btn_R2_C2" FontSize="100" Text="" Grid.Column="2" Grid.Row="2" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R2_C0" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="0" Grid.Row="2" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R2_C1" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="1" Grid.Row="2" BackgroundColor="DarkCyan"/>
+                <Button x:Name="btn_R2_C2" FontSize="100" Text="" Clicked="DrawSymbol" Grid.Column="2" Grid.Row="2" BackgroundColor="DarkCyan"/>
             </Grid>
         </Frame>
         <Frame BackgroundColor="DarkCyan">
