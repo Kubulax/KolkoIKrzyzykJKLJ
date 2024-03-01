@@ -25,6 +25,7 @@ namespace KolkoIKrzyzykJKLJ
             if (!hasWinner && turns < 9 && String.IsNullOrWhiteSpace(field.Text)) 
             {          
                 field.Text = currentPlayer;
+                turns++;
 
                 if (currentPlayer == "×")
                 {
